@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Ahamono;
+    src: url(../tipografias/ahamono.otf);
+    }
+@font-face {
+    font-family: Glacial;
+    src: url(../tipografias/glacialRegular.otf);
+    font-style: normal ;
+
+}
+
+@font-face{
+    font-family: Glacial Italic;
+    src: url(../tipografias/glacialItalic.otf);
+    font-style: Italic ;
+}
+
+main{
+    margin-top: 30px;
+}
+
+body{
+    padding-top: 20px!important;
+}
+
+.navbar{
+    padding-right: 45px;
+    padding-left: 45px ;
+}
+
+.estiloNavBar{
+    font-family: Glacial;
+    font-size: 140%;
+}
+
+.nav-link{
+    padding-right: 30px!important;
+    letter-spacing: 3px;
+    color: black!important;
+}
+
+.nav-link:hover{
+    color: #375b91!important;
+}
+
+.logo{
+    width: 40%;
+}
+
+.active{
+    color: #375b91!important
+}
+
+.navbar-light .navbar-toggler {
+    position: absolute;
+    left: 85vw;
+}

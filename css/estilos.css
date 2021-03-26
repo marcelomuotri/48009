@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: Ahamono;
+    src: url(../tipografias/ahamono.otf);
+    }
+@font-face {
+    font-family: Glacial;
+    src: url(../tipografias/glacialRegular.otf);
+    font-style: normal ;
+
+}
+
+@font-face{
+    font-family: Glacial Italic;
+    src: url(../tipografias/glacialItalic.otf);
+    font-style: Italic ;
+}
+
+h1 {
+    font-family: Glacial ;
+}
+
+h2 {
+    font-family: Ahamono;
+}
