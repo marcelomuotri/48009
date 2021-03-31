@@ -17,6 +17,7 @@
 
 main{
     margin-top: 30px;
+    margin-left: -15px;
 }
 
 body{
@@ -33,18 +34,28 @@ body{
     font-size: 140%;
 }
 
+.logo{
+    font-family: Glacial;
+    font-size: 140%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.redesSociales{
+    width: 27%!important;
+}
+
+.margenIconos{
+    width: 7vw;
+}
+
 .nav-link{
-    padding-right: 30px!important;
-    letter-spacing: 3px;
+    padding-right: 15px!important;  
     color: black!important;
 }
 
 .nav-link:hover{
     color: #375b91!important;
-}
-
-.logo{
-    width: 25vw;
 }
 
 .active{
@@ -61,3 +72,4 @@ body{
       width: 80%;
     }
   }
+

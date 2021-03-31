@@ -130,4 +130,3 @@ function AparecerNegro17(){
   fotoAparecer2(imagen9,negro9)
       }
 
-
