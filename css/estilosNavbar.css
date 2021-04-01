@@ -17,7 +17,7 @@
 
 main{
     margin-top: 30px;
-    margin-left: -15px;
+    
 }
 
 body{
@@ -36,22 +36,35 @@ body{
 
 .logo{
     font-family: Glacial;
-    font-size: 140%;
-    margin-left: 0px;
+    font-size: 120%;
+    margin-left: 6px;
     margin-bottom: 0px;
 }
 
 .redesSociales{
-    width: 27%!important;
+    width: 1.8vw!important; /* TAMAÑO ICONOS */
+    padding-top: 7px;
 }
-
 .margenIconos{
     width: 7vw;
 }
 
+@media (max-width: 360px) {
+    .redesSociales {
+      width: 7vw!important;
+    }
+    .margenIconos{
+        width: 100vw;
+    }
+
+  }
+
+
+
 .nav-link{
     padding-right: 15px!important;  
     color: black!important;
+    font-size: 90%;/* TAMAÑO NAVBAR */
 }
 
 .nav-link:hover{
