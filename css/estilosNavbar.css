@@ -49,7 +49,7 @@ body{
     width: 7vw;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 450px) {
     .redesSociales {
       width: 7vw!important;
     }
