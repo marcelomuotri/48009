@@ -49,6 +49,11 @@ body{
     width: 7vw;
 }
 
+.nav-link{
+    padding-right: 15px!important;  
+    font-size: 90%;/* TAMAÑO NAVBAR */
+}
+
 @media (max-width: 500px) {
     .redesSociales {
       width: 7vw!important;
@@ -56,16 +61,11 @@ body{
     .margenIconos{
         width: 100vw;
     }
-
+    .nav-link{
+        font-size: 70%;
+    }
   }
 
-
-
-.nav-link{
-    padding-right: 15px!important;  
-    color: black!important;
-    font-size: 90%;/* TAMAÑO NAVBAR */
-}
 
 .nav-link:hover{
     color: #375b91!important;

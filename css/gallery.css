@@ -102,5 +102,13 @@ body {
 
 
  
+.sticky{
+    position: -webkit-sticky;
+  position: sticky;
+  top: 110px;
+  box-shadow: none!important;
+
+}
+
 
 
