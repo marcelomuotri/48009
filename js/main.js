@@ -1,4 +1,13 @@
-var negro1 = $("#imagenNegra1")
+
+
+
+
+
+if(screen.width < 480) { 
+// do any 480 width stuff here, or simply do nothing
+   
+  } else {
+   var negro1 = $("#imagenNegra1")
 var imagen1 = $("#imagen")
 var negro2 = $("#imagenNegra2")
 var imagen2 = $("#imagenDos")
@@ -16,7 +25,10 @@ var negro8 = $("#imagenNegra8")
 var imagen8 = $("#imagenOcho")
 var negro9 = $("#imagenNegra9")
 var imagen9 = $("#imagenNueve")
+ 
 
+  
+ 
 function fotoAparecer (imagen, imagenNegra){
     $(imagen).css("display", "none")
     $(imagenNegra).css("display", "flex")
@@ -29,11 +41,12 @@ function fotoAparecer (imagen, imagenNegra){
    }
 
 
-   //primera foto
-$("#parateHover").mouseover(AparecerNegro1)
-function AparecerNegro1(){
+
+$("#parateHover").mouseover(aparecerNegro1)
+function aparecerNegro1(){
     fotoAparecer(imagen1,negro1)
 }
+
 
 $("#parateHover").mouseout(AparecerNegro2)
 function AparecerNegro2(){
@@ -102,31 +115,35 @@ function AparecerNegro13(){
    fotoAparecer(imagen7,negro7)
    }
    
-$("#parateHoverSiete").mouseout(AparecerNegro19)
-function AparecerNegro19(){
+$("#parateHoverSiete").mouseout(AparecerNegro14)
+function AparecerNegro14(){
    fotoAparecer2(imagen7,negro7)
    }
 
    //octava foto
 
-$("#parateHoverOcho").mouseover(AparecerNegro14)
-function AparecerNegro14(){
+$("#parateHoverOcho").mouseover(AparecerNegro15)
+function AparecerNegro15(){
    fotoAparecer(imagen8,negro8)
    }
 
-$("#parateHoverOcho").mouseout(AparecerNegro15)
-function AparecerNegro15(){
+$("#parateHoverOcho").mouseout(AparecerNegro16)
+function AparecerNegro16(){
    fotoAparecer2(imagen8,negro8)
    }
 
    //novena foto
-$("#parateHoverNueve").mouseover(AparecerNegro16)
-function AparecerNegro16(){
+$("#parateHoverNueve").mouseover(AparecerNegro17)
+function AparecerNegro17(){
   fotoAparecer(imagen9,negro9)
       }
 
-$("#parateHoverNueve").mouseout(AparecerNegro17)
-function AparecerNegro17(){
+$("#parateHoverNueve").mouseout(AparecerNegro18)
+function AparecerNegro18(){
   fotoAparecer2(imagen9,negro9)
       }
 
+
+   
+
+     }
