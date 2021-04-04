@@ -39,6 +39,7 @@ body{
     font-size: 120%;
     margin-left: 6px;
     margin-bottom: 0px;
+    color: rgb(71, 71, 71);
 }
 
 .redesSociales{
@@ -68,11 +69,11 @@ body{
 
 
 .nav-link:hover{
-    color: #375b91!important;
+    color: black!important;
 }
 
 .active{
-    color: #375b91!important
+    color: black!important
 }
 
 .navbar-light .navbar-toggler {
