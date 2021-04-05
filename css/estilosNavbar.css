@@ -39,7 +39,7 @@ body{
     font-size: 120%;
     margin-left: 6px;
     margin-bottom: 0px;
-    color: #474747;
+    color:gray;
 }
 
 .redesSociales{
@@ -50,8 +50,15 @@ body{
     width: 7vw;
 }
 
+.palitos{
+    margin-bottom: 0px;
+    font-size: 18px;
+    padding-top: 8px;
+    color: gray;
+}
+
 .nav-link{
-    padding-right: 15px!important;  
+    padding-right: 8px!important;  
     font-size: 90%;/* TAMAÑO NAVBAR */
 }
 
