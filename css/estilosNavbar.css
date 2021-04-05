@@ -62,6 +62,12 @@ body{
     font-size: 90%;/* TAMAÑO NAVBAR */
 }
 
+.linea{
+    color: gray;
+    margin-left: 5%;
+    margin-bottom: 0px;
+}
+
 @media (max-width: 500px) {
     .redesSociales {
       width: 7vw!important;
