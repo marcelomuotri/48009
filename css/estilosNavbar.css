@@ -36,19 +36,13 @@ body{
 
 .logo{
     font-family: Glacial;
-    font-size: 120%;
+    font-size: 105%;
     margin-left: 6px;
     margin-bottom: 0px;
     color:gray;
 }
 
-.redesSociales{
-    width: 1.0vw!important; /* TAMAÑO ICONOS */
-    padding-top: 7px;
-}
-.margenIconos{
-    width: 7vw;
-}
+
 
 .palitos{
     margin-bottom: 0px;
@@ -59,22 +53,17 @@ body{
 
 .nav-link{
     padding-right: 8px!important;  
-    font-size: 90%;/* TAMAÑO NAVBAR */
+    font-size: 80%;/* TAMAÑO NAVBAR */
 }
 
 .linea{
     color: gray;
-    margin-left: 5%;
+
     margin-bottom: 0px;
 }
 
 @media (max-width: 500px) {
-    .redesSociales {
-      width: 7vw!important;
-    }
-    .margenIconos{
-        width: 100vw;
-    }
+    
     .nav-link{
         font-size: 70%;
     }
@@ -92,6 +81,14 @@ body{
 .navbar-light .navbar-toggler {
     position: absolute;
     left: 85vw;
+}
+
+.stickyMenu{
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  box-shadow: none!important;
+
 }
 
 @media (max-width: 900px) {
