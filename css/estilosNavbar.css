@@ -44,6 +44,8 @@ body{
 
 
 
+
+
 .palitos{
     margin-bottom: 0px;
     font-size: 18px;
@@ -84,11 +86,22 @@ body{
 }
 
 .stickyMenu{
-    position: -webkit-sticky;
+    
   position: sticky;
   top: 0px;
-  box-shadow: none!important;
+}
 
+.letraFooter{
+    font-family: Ahamono;
+    text-align: center;
+}
+.iconos{
+    width: 1.6vw;
+    
+}
+
+.iconosMover{
+    padding-left: 12vw ;
 }
 
 @media (max-width: 900px) {
