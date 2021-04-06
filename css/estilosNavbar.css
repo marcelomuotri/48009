@@ -93,11 +93,26 @@ body{
 
 .letraFooter{
     font-family: Ahamono;
-    text-align: center;
+    text-align: left;
+    color: gray;
+    margin-bottom: 7px;
 }
+
+.letraFooterDerecha{
+    text-align: right;
+    font-family: Ahamono;
+    color: gray;
+    margin-bottom: 7px;
+}
+
 .iconos{
-    width: 1.6vw;
+    width: 1.7vw;
+    color: gray;
     
+}
+
+.separacion{
+    margin-top: 20px;
 }
 
 .iconosMover{
