@@ -60,16 +60,12 @@ body{
 
 .linea{
     color: gray;
+    font-size: 1.045vw;
 
     margin-bottom: 0px;
 }
 
-@media (max-width: 500px) {
-    
-    .nav-link{
-        font-size: 70%;
-    }
-  }
+
 
 
 .nav-link:hover{
@@ -81,7 +77,7 @@ body{
 }
 
 .navbar-light .navbar-toggler {
-    position: absolute;
+    
     left: 85vw;
 }
 
@@ -92,10 +88,11 @@ body{
 }
 
 .letraFooter{
-    font-family: Ahamono;
     text-align: left;
+    font-family: Ahamono;
     color: gray;
     margin-bottom: 7px;
+    font-size: 1vw;
 }
 
 .letraFooterDerecha{
@@ -103,6 +100,7 @@ body{
     font-family: Ahamono;
     color: gray;
     margin-bottom: 7px;
+    font-size: 1vw;
 }
 
 .iconos{
@@ -125,3 +123,38 @@ body{
     }
   }
 
+  @media (max-width: 500px) {
+    .nav-link{
+        font-size: 70%;
+    }
+    .letraFooter{
+        font-size: 75%;
+    }
+    .letraFooterDerecha{
+        font-size: 75%;
+    }
+    .iconos{
+        width: 6vw;
+    }
+    .iconosMover{
+        padding-left: 40vw ;
+    }
+    .letraFooterDerecha{
+        text-align: center;
+    }
+    .letraFooter{
+        text-align: center;
+    }
+    .palitos{
+        display: none;
+    }
+    .logo{
+        margin-left: 0px;
+    }
+    .navbar-toggler-icon{
+        width: 5vw!important;
+    }
+    .navbar-toggler{
+        padding: 0px 5px 0px 5px;
+    }
+  }
