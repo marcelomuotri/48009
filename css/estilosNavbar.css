@@ -42,10 +42,6 @@ body{
     color:gray;
 }
 
-
-
-
-
 .palitos{
     margin-bottom: 0px;
     font-size: 18px;
@@ -57,11 +53,6 @@ body{
     padding-right: 8px!important;  
     font-size: 70%;/* TAMAÑO NAVBAR */
 }
-
-
-
-
-
 
 .nav-link:hover{
     color: black!important;
@@ -77,9 +68,21 @@ body{
 }
 
 .stickyMenu{
-    
-  position: sticky;
-  top: 0px;
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.atras{
+    z-index: -1!important;
+
+}
+
+.tama{
+    width: 100%;
+    margin-bottom: 6%;
 }
 
 .letraFooter{
@@ -87,7 +90,7 @@ body{
     font-family: Ahamono;
     color: gray;
     margin-bottom: 7px;
-    font-size: 0.9vw;
+    font-size: 0.8vw;
 }
 
 .letraFooterDerecha{

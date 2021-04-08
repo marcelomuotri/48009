@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
     <link rel="stylesheet" href="css/estilosNavbar.css">
     <link rel="stylesheet" href="css/gallery.css">
     <link  rel="icon" href="imagenes/logo/favicon.png" type="image/png" />
@@ -21,7 +20,7 @@
     
 </head>
 <body>
-    <header>
+    <header class="stickyMenu">
         <!-- NAVEGACION -->
         <nav class="navbar navbar-expand-lg navbar-light ">
                 <a class="navbar-brand " href="index.html">
@@ -32,9 +31,9 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav estiloNavBar ">
-                        <a class="nav-link" href="#">INICIO</a>
+                        <a class="nav-link active" href="index.html">INICIO</a>
                         <p class= "palitos">|</p>
-                        <a class="nav-link active" href="index.html">PROYECTOS</a>
+                        <a class="nav-link " href="proyectos.html">PROYECTOS</a>
                         <p class= "palitos">|</p>
                         <a class="nav-link" href="#">SERVICIOS</a>
                         <p class= "palitos">|</p>
@@ -47,114 +46,47 @@
 
     </header>
     <main>
-        <!-- GALERIA -->
-        <div class="container">
-
-            <div class="tz-gallery">
-
-                <div class="row">
-                    <div class="col-sm-6 col-md-4" id= "parateHover">
-                        <a class="lightbox" href="botin.html">
-                            <img src="imagenes/fotos-index/BOTÍN.jpg" id="imagen" alt="BOTIN">
-                            <img src="imagenes/fotos-index/BOTÍN NEGRO.jpg" class="imagenOculta" id="imagenNegra1" alt="BOTIN">
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4" id= "parateHoverDos">
-                        <a class="lightbox" href="imagenes/fotos-index/CISCO.jpg">
-                            <img src="imagenes/fotos-index/CISCO.jpg" id= "imagenDos" alt="CISCO">
-                            <img src="imagenes/fotos-index/CISCO NEGRO.jpg" class="imagenOculta" id="imagenNegra2" alt="BOTIN">
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4" id="parateHoverTres">
-                        <a class="lightbox" href="imagenes/fotos-index/CÚPULA.jpg">
-                            <img src="imagenes/fotos-index/CÚPULA.jpg" id="imagenTres" alt="CUPULA 2">
-                            <img src="imagenes/fotos-index/CÚPULA NEGRO.jpg" class= "imagenOculta" id="imagenNegra3" alt="BOTIN">
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4" id="parateHoverCuatro">
-                        <a class="lightbox" href="imagenes/fotos-index/FARMACIA.jpg">
-                            <img src="imagenes/fotos-index/FARMACIA.jpg" id="imagenCuatro" alt="FARMACIA">
-                            <img src="imagenes/fotos-index/FARMACIA NEGRO.jpg" class= "imagenOculta" id="imagenNegra4" alt="BOTIN">
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4" id="parateHoverCinco">
-                        <a class="lightbox" href="imagenes/fotos-index/OTTO.jpg">
-                            <img src="imagenes/fotos-index/OTTO.jpg" id="imagenCinco" alt="OTTO 2">
-                            <img src="imagenes/fotos-index/OTTO NEGRO.jpg" class= "imagenOculta" id="imagenNegra5" alt="BOTIN">
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4" id="parateHoverSeis">
-                        <a class="lightbox" href="imagenes/fotos-index/PUNTAL.jpg">
-                            <img src="imagenes/fotos-index/PUNTAL.jpg" id="imagenSeis" alt="PUNTUAL">
-                            <img src="imagenes/fotos-index/PUNTAL NEGRO.jpg" class= "imagenOculta" id="imagenNegra6" alt="BOTIN">
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4" id= "parateHoverSiete">
-                        <a class="lightbox" href="imagenes/fotos-index/DIÓGENES.jpg">
-                            <img src="imagenes/fotos-index/DIÓGENES.jpg" id="imagenSiete" alt="DIOGENES">
-                            <img src="imagenes/fotos-index/DIÓGENES NEGRO.jpg" class= "imagenOculta" id="imagenNegra7" alt="DIOGENES">
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4" id="parateHoverOcho">
-                        <a class="lightbox" href="imagenes/fotos-index/NALDAMAR.jpg">
-                            <img src="imagenes/fotos-index/NALDAMAR.jpg" id="imagenOcho" alt="NALDAMAR">
-                            <img src="imagenes/fotos-index/NALDAMAR NEGRO.jpg" class= "imagenOculta" id="imagenNegra8" alt="NALDAMAR">
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4" id="parateHoverNueve">
-                        <a class="lightbox" href="botin.html">
-                            <img src="imagenes/fotos-index/CONSULAT.jpg" id="imagenNueve" alt="CONSULAT">
-                            <img src="imagenes/fotos-index/CONSULAT NEGRO.jpg" class= "imagenOculta" id="imagenNegra9" alt="CONSULAT">
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-
+        <div>
+            <img src="imagenes/inicio/Foto Inicio 01.jpg" alt="">
         </div>
-
-
 
     </main>
-
     <footer>
-       <hr color="#cfcfcf" style="height: 0.1px;">
-        <div class="container">
-            <div class = "row separacion">
-                <div class="col-sm-12 col-md-4 col-lg-4  " >
-                    <p class="letraFooter"> c/ Juan de ajuriaguerra 33 </p>
-                    <p class="letraFooter"> 48009, Bilbao, Bizkaia </p>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 iconosMover">
-                    <a href="">
-                        <img class = "iconos" src="imagenes/iconos/LOGO INSTAGRAM.jpg" id="" alt="">
-                    </a>
-                    <a href="">
-                        <img class = "iconos" src="imagenes/iconos/LOGO MAIL.png" id="" alt="">
-                    </a>
-                    <a href="">
-                        <img class = "iconos" src="imagenes/iconos/LOGO PINTEREST.png" id="" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <p class="letraFooterDerecha"> info@48009interiorismo.com </p>
-                    <p class="letraFooterDerecha"> (+34) 900 123 456 </p>
-                </div>
-            </div>
-        </div>
-
-    </footer>
-    <script defer src="js/main.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-    <script>
-    baguetteBox.run('.tz-gallery');
-    </script>
-
-
-</body>
-</html>
+        <hr color="#cfcfcf" style="height: 0.1px;">
+         <div class="container ">
+                 <div class = "row separacion">
+                 <div class="col-sm-12 col-md-4 col-lg-4  " >
+                     <p class="letraFooter"> c/ Juan de ajuriaguerra 33 </p>
+                     <p class="letraFooter"> 48009, Bilbao, Bizkaia </p>
+                 </div>
+                 <div class="col-sm-12 col-md-4 col-lg-4 iconosMover">
+                     <a href="">
+                         <img class = "iconos" src="imagenes/iconos/LOGO INSTAGRAM.jpg" id="" alt="">
+                     </a>
+                     <a href="">
+                         <img class = "iconos" src="imagenes/iconos/LOGO MAIL.png" id="" alt="">
+                     </a>
+                     <a href="">
+                         <img class = "iconos" src="imagenes/iconos/LOGO PINTEREST.png" id="" alt="">
+                     </a>
+                 </div>
+                 <div class="col-sm-12 col-md-4 col-lg-4">
+                     <p class="letraFooterDerecha"> info@48009interiorismo.com </p>
+                     <p class="letraFooterDerecha"> (+34) 900 123 456 </p>
+                 </div>
+             </div>
+         </div>
+ 
+     </footer>
+     <script defer src="js/main.js"></script>
+ 
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+ 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+     
+ 
+ 
+ </body>
+ </html>

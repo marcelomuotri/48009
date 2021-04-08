@@ -1,8 +1,5 @@
 
 
-
-
-
 if(screen.width < 480) { 
 // do any 480 width stuff here, or simply do nothing
    
@@ -147,3 +144,12 @@ function AparecerNegro18(){
    
 
      }
+
+     window.onscroll = function() {myFunction()};
+
+     var linea = $("#linea")
+     
+     function myFunction() {
+      linea.css("transition", "1 s")
+      linea.css("margin-top", "0")
+     } 
