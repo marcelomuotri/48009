@@ -117,14 +117,14 @@ body{
 }
 
 .rounded {
-width: 63%;
+    width: 61%;
 }
 
 .logoVertical{
-    width: 9%;
+    width: 8.5%;
     position: absolute;
     margin-left: 88.5%;
-    margin-top: -14.2%;
+    margin-top: -13.2%;
 }
 
 .fotoServicio{
@@ -173,5 +173,11 @@ width: 63%;
     }
     .nav-link{
         text-align: end;
+    }
+    .rounded {
+        width: 90%;
+    }
+    .logoVertical{
+        display: none;
     }
   }

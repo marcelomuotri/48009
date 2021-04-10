@@ -153,3 +153,7 @@ function AparecerNegro18(){
       linea.css("transition", "1 s")
       linea.css("margin-top", "0")
      } 
+
+     $('.carousel').carousel({
+      interval: 8000
+    })
