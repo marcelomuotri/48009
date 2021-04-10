@@ -22,6 +22,7 @@ main{
 
 body{
     padding-top: 20px!important;
+    padding-bottom: 20px!important;
 }
 
 .navbar{
@@ -116,14 +117,14 @@ body{
 }
 
 .rounded {
-width: 65%;
+width: 63%;
 }
 
 .logoVertical{
-    width: 10%;
+    width: 9%;
     position: absolute;
-    margin-left: 86%;
-    margin-top: -18%;
+    margin-left: 88.5%;
+    margin-top: -14.2%;
 }
 
 @media (max-width: 900px) {
