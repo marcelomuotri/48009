@@ -131,6 +131,24 @@ body{
     width: 95%;
 }
 
+.tamPlano{
+    width: 180%;
+   
+
+}
+
+.logoVerticalContacto{
+    width: 8.5%;
+    position: absolute;
+    margin-left: 86.5%;
+    margin-top: -13.2%;
+}
+
+.datosContacto{
+    width: 70%;
+    margin-top: 123%;
+}
+
 @media (max-width: 900px) {
     .logo {
       width: 80%;
@@ -179,5 +197,16 @@ body{
     }
     .logoVertical{
         display: none;
+    }
+    .datosContacto{
+        margin-top: 0%;
+        width: 60%;
+    }
+    .logoVerticalContacto{
+        display: none;
+    }
+    .tamPlano{
+        width: 100%;
+        margin-top: 5%;
     }
   }

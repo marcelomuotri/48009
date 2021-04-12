@@ -155,5 +155,5 @@ function AparecerNegro18(){
      } 
 
      $('.carousel').carousel({
-      interval: 8000
+      interval: 5000
     })
