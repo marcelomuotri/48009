@@ -209,4 +209,8 @@ body{
         width: 100%;
         margin-top: 5%;
     }
+    .navbar{
+        padding-right: 15px;
+        padding-left: 15px ;
+    }
   }
