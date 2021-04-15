@@ -149,9 +149,16 @@ body{
     margin-top: 123%;
 }
 
-@media (max-width: 900px) {
+.inicioResp{
+    display: none!important;
+}
+
+  @media (max-width: 900px) {
     .logo {
       width: 80%;
+    }
+    .palitos{
+        display: none;
     }
   }
 
@@ -212,5 +219,11 @@ body{
     .navbar{
         padding-right: 15px;
         padding-left: 15px ;
+    }
+    .inicioResp{
+        display: flex!important;
+    }
+    .inicioNoResp{
+        display: none!important;
     }
   }
