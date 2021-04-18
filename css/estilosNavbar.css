@@ -153,6 +153,10 @@ body{
     display: none!important;
 }
 
+.tam{
+    width: 100%;
+}
+
   @media (max-width: 900px) {
     .logo {
       width: 80%;
