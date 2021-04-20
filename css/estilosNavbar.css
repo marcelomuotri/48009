@@ -133,8 +133,6 @@ body{
 
 .tamPlano{
     width: 180%;
-   
-
 }
 
 .logoVerticalContacto{
@@ -156,6 +154,20 @@ body{
 .tam{
     width: 100%;
 }
+
+.politicas{
+    width: 60%;
+    height: 17%;
+    position: absolute;
+    top: 80.6%;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    opacity: 70%;
+    font-family: Glacial;
+    font-size: 1vw;
+}
+
 
   @media (max-width: 900px) {
     .logo {
@@ -230,4 +242,18 @@ body{
     .inicioNoResp{
         display: none!important;
     }
+  }
+
+  .cargador{
+    height: 10px;
+    background-color: #000;
+    position: absolute;
+  }
+  
+  .contenido{
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+    display: none;
   }
