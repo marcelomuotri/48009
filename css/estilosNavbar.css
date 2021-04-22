@@ -168,6 +168,10 @@ body{
     font-size: 1vw;
 }
 
+.iconoVolver{
+    display: none;
+}
+
 
   @media (max-width: 900px) {
     .logo {
@@ -242,18 +246,40 @@ body{
     .inicioNoResp{
         display: none!important;
     }
+    .iconoVolver{
+        
+        position: absolute;
+        display: flex;
+        width: 0.1vw;
+        top: 43%;
+        left: 5%;
+
+    }
+
   }
 
-  .cargador{
-    height: 10px;
-    background-color: #000;
-    position: absolute;
-  }
-  
-  .contenido{
-    text-align: center;
-    height: 100vh;
-    width: 100%;
-    background: #fff;
-    display: none;
-  }
+h3{
+    font-family: Glacial;
+}
+
+h4{
+    font-family: Glacial;
+}   
+
+.textoPoliticas{
+    font-family: Glacial;
+}
+
+.privacidad{
+    text-decoration: none;
+    font-family: Ahamono;
+    text-align: right;
+    font-size: 0.9vw;
+    color: gray;
+    margin-bottom: 7px;
+}
+
+.iconoVolverDos{
+    width: 10vw;
+    
+}
