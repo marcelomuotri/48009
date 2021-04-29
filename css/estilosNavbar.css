@@ -172,6 +172,15 @@ body{
     display: none;
 }
 
+.privacidad{
+    text-decoration: none;
+    font-family: Ahamono;
+    text-align: right;
+    font-size: 0.9vw;
+    color: gray;
+    margin-bottom: 7px;
+}
+
 
   @media (max-width: 900px) {
     .logo {
@@ -251,9 +260,15 @@ body{
         position: absolute;
         display: flex;
         width: 0.1vw;
-        top: 18%;
-        right: 16%;
-
+        top: 162.5%;
+        right: 53%;
+    }
+    .celu{
+        margin-left: 0.2%;
+    }
+    .privacidad{
+        font-size: 71%;
+        text-align: center;
     }
 
   }
@@ -270,14 +285,7 @@ h4{
     font-family: Glacial;
 }
 
-.privacidad{
-    text-decoration: none;
-    font-family: Ahamono;
-    text-align: right;
-    font-size: 0.9vw;
-    color: gray;
-    margin-bottom: 7px;
-}
+
 
 .iconoVolverDos{
     width: 10vw;
