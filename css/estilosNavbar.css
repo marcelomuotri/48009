@@ -260,7 +260,7 @@ body{
         position: absolute;
         display: flex;
         width: 0.1vw;
-        top: 162.5%;
+        bottom: -68%;
         right: 53%;
     }
     .celu{
