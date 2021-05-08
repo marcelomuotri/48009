@@ -263,6 +263,69 @@ body{
         bottom: -68%;
         right: 53%;
     }
+    .iconoVolverCisco{
+        position: absolute;
+        display: flex;
+        width: 0.1vw;
+        bottom: -257%;
+        right: 53%;
+    }
+    .iconoVolverCupula{
+        position: absolute;
+        display: flex;
+        width: 0.1vw;
+        bottom: -181.5%;
+        right: 53%;
+    }
+
+    .iconoVolverFarmacia{
+        position: absolute;
+        display: flex;
+        width: 0.1vw;
+        bottom: -257%;
+        right: 53%;
+    }
+
+    .iconoVolverOtto{
+        position: absolute;
+        display: flex;
+        width: 0.1vw;
+        bottom: -143.5%;
+        right: 53%;
+    }
+
+    .iconoVolverPuntual{
+        position: absolute;
+        display: flex;
+        width: 0.1vw;
+        bottom: -105.5%;
+        right: 53%;
+    }
+
+    .iconoVolverDiogenes{
+        position: absolute;
+        display: flex;
+        width: 0.1vw;
+        bottom: -144%;
+        right: 53%;
+    }
+
+    .iconoVolverNaldamar{
+        position: absolute;
+        display: flex;
+        width: 0.1vw;
+        bottom: -219%;
+        right: 53%;
+    }
+
+    .iconoVolverConsulat{
+        position: absolute;
+        display: flex;
+        width: 0.1vw;
+        bottom: -106%;
+        right: 53%;
+    }
+
     .celu{
         margin-left: 0.2%;
     }
